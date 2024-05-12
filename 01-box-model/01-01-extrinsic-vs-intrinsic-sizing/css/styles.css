@@ -14,3 +14,8 @@
 .awesome[data-sizing="intrinsic"] {
   width: min-content;
 }
+
+/* Presentional styles */
+.awesome {
+  --flow-space: 2rem;
+}
