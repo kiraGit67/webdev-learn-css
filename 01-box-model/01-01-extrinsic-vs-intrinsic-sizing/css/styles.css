@@ -9,3 +9,8 @@
   /* the important extrinsic width */
   width: 320px;
 }
+
+/* intrinsic width=min-content for data-sizing=intrinsic */
+.awesome[data-sizing="intrinsic"] {
+  width: min-content;
+}
