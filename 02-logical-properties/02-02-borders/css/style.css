@@ -1,0 +1,16 @@
+.my-element {
+  padding: 0.25rem;
+  direction: ltr;
+}
+
+.my-element:first-of-type {
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-bottom-right-radius: 1rem;
+}
+
+.my-element:last-of-type {
+  border-block-end: 1px solid red;
+  border-inline-end: 1px solid red;
+  border-end-end-radius: 1rem;
+}
