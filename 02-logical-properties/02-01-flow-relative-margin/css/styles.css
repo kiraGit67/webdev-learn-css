@@ -1,3 +1,18 @@
 .sample {
   writing-mode: horizontal-tb;
 }
+
+.sample > * {
+  border: 1px solid var(--color-primary);
+  background: var(--color-primary-x-light);
+  max-width: 20rem;
+}
+
+.sample > * + * {
+  margin-block-start: 1rem;
+}
+
+.sample p {
+  padding: 1rem;
+  background: white;
+}
