@@ -17,12 +17,23 @@
   background: white;
 }
 
-/* first child div > p */
+/* first child div > p 
 .sample > div:first-child > p {
   margin-top: 1rem;
 }
-
-/* last child div > p */
+*/
+/* last child div > p 
 .sample > div:last-child > p {
+  margin-block-start: 1rem;
+}
+*/
+
+/* div.sample--margin-top > p */
+#sample--margin-top > p {
+  margin-top: 1rem;
+}
+
+/* div.sample--margin-block-start > p */
+#sample--margin-block-start > p {
   margin-block-start: 1rem;
 }
