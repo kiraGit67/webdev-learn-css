@@ -37,3 +37,7 @@
 #sample--margin-block-start > p {
   margin-block-start: 1rem;
 }
+
+#select-writing-mode {
+  margin-inline-start: 0.75rem;
+}
