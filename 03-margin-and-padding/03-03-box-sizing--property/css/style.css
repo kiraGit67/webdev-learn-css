@@ -1,5 +1,9 @@
+:root {
+  --data-sizing: border-box;
+}
+
 .my-element {
-  box-sizing: border-box;
+  box-sizing: var(--data-sizing);
   width: 320px;
   padding: 30px;
   background: var(--color-primary-x-light);
