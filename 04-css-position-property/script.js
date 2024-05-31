@@ -3,5 +3,6 @@ const boxElement = document.querySelector(".box");
 const rootElement = document.documentElement;
 
 selectPosition.addEventListener("change", () => {
-  boxElement.style.position = selectPosition.value;
+  //boxElement.style.position = selectPosition.value;
+  rootElement.style.setProperty("--box-position", selectPosition.value);
 });
