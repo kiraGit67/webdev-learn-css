@@ -1,3 +1,11 @@
 .root {
   --box-position: static;
 }
+
+.parent {
+  padding: 0.5rem 2rem 2rem;
+  height: 1000px;
+  position: relative;
+  background: var(--color-primary-x-light);
+  border: 1px solid var(--color-primary);
+}
