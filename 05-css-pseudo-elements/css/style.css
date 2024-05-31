@@ -7,3 +7,9 @@ p:first-of-type::first-letter {
   line-height: 1;
   margin-inline-end: 0.25rem;
 }
+
+/* p::first-line */
+p:nth-of-type(2)::first-line {
+  color: goldenrod;
+  font-weight: 600;
+}
