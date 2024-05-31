@@ -1,0 +1,9 @@
+/* p::first-letter */
+p:first-of-type::first-letter {
+  color: dodgerblue;
+  float: left;
+  font-size: 2.75rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-inline-end: 0.25rem;
+}
