@@ -9,3 +9,9 @@
   background: var(--color-primary-x-light);
   border: 1px solid var(--color-primary);
 }
+
+.box {
+  top: 1.5rem;
+  left: 1.5rem;
+  position: var(--box-position);
+}
