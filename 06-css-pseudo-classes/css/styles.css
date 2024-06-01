@@ -39,7 +39,10 @@ input:valid ~ .info {
   margin-block-start: 0.5em;
 }
 
-button.button {
+button.button,
+a.button {
+  display: block;
+  text-align: center;
   padding: 0.75rem;
   border: none;
   border-radius: 0.15rem;
@@ -53,11 +56,13 @@ button.button {
     box-shadow 1s ease-in-out;
 }
 
-button.button:hover {
+button.button:hover,
+a.button:hover {
   background-color: darkblue;
 }
 
-button.button:active {
+button.button:active,
+a.button:active {
   background-color: blue;
   transform: scale(1.1);
   box-shadow: 0 0 5px darkblue;
