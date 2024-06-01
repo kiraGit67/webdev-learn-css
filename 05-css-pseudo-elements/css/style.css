@@ -13,3 +13,11 @@ p:nth-of-type(2)::first-line {
   color: goldenrod;
   font-weight: 600;
 }
+
+/* ::marker */
+ul ::marker {
+  content: "\002B  ";
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: dodgerblue;
+}
