@@ -16,6 +16,10 @@ input:invalid:focus {
   outline-offset: 2px;
 }
 
+input:invalid ~ .info {
+  color: red;
+}
+
 input:valid {
   border: 1px solid green;
 }
