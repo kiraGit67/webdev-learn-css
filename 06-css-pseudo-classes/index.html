@@ -13,7 +13,9 @@
 <body>
     <form>
         <label for="email">E-Mail-Address</label>
-        <input type="email" name="email" id="email" required placeholder="e.g. name@domain.de">
+        <input type="email" name="email" id="email" required placeholder="e.g. name@domain.de"
+            aria-describedby="email-info">
+        <p class="info" id="email-info">Insert a valid email to see the state changing.</p>
     </form>
 </body>
 
