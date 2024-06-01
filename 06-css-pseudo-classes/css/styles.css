@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 input {
   min-width: 320px;
   padding: 0.5rem 1rem;
@@ -66,4 +70,16 @@ a.button:active {
   background-color: blue;
   transform: scale(1.1);
   box-shadow: 0 0 5px darkblue;
+}
+
+#legend {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+#legend:target {
+  background-color: rgba(0, 0, 51, 0.05);
+  color: darkblue;
 }
