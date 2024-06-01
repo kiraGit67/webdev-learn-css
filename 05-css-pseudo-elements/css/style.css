@@ -22,6 +22,16 @@ ul ::marker {
   color: dodgerblue;
 }
 
+ol ::marker {
+  color: dodgerblue;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+ol {
+  padding-left: 1rem;
+}
+
 article.flow + article.flow {
   margin-top: 2.25rem;
 }
