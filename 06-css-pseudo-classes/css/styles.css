@@ -29,6 +29,10 @@ input:valid:focus {
   outline-offset: 1px;
 }
 
+input:valid ~ .info {
+  color: green;
+}
+
 .info {
   font-size: 0.9rem;
   font-style: italic;
