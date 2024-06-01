@@ -11,8 +11,18 @@ input:invalid {
   border: 1px solid red;
 }
 
+input:invalid:focus {
+  outline: 2px dotted red;
+  outline-offset: 2px;
+}
+
 input:valid {
   border: 1px solid green;
+}
+
+input:valid:focus {
+  outline: 1px dotted green;
+  outline-offset: 1px;
 }
 
 .info {
