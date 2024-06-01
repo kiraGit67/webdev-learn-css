@@ -48,8 +48,17 @@ button.button {
   font-size: 1.1rem;
   text-transform: uppercase;
   margin-block-start: 1rem;
+  transform-origin: left center;
+  transition: background-color 1s ease-in-out, transform 1s ease-in-out,
+    box-shadow 1s ease-in-out;
 }
 
 button.button:hover {
   background-color: darkblue;
+}
+
+button.button:active {
+  background-color: blue;
+  transform: scale(1.1);
+  box-shadow: 0 0 5px darkblue;
 }
