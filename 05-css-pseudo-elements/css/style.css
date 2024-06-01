@@ -21,3 +21,7 @@ ul ::marker {
   font-weight: 600;
   color: dodgerblue;
 }
+
+article.flow + article.flow {
+  margin-top: 2.25rem;
+}
