@@ -25,13 +25,13 @@ const ageInput = document.querySelector("#age");
 button.disabled = true;
 
 const inputs = document.querySelectorAll("input:not(#all, #done, #open)");
-console.log(inputs);
-
+//console.log(inputs);
+/*
 console.log(button.disabled);
 console.log(emailInput.validity.valid);
 console.log(ageInput.validity.rangeUnderflow);
 console.log(ageInput.validity.rangeOverflow);
-
+*/
 inputs.forEach((input) => {
   input.addEventListener("input", () => {
     if (
