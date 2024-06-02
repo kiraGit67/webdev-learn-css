@@ -1,7 +1,19 @@
 "use strict";
 
-const checkboxes = document.querySelectorAll("input[type='checkbox']");
-const all = document.querySelector("#all");
+const checkboxes = document.querySelectorAll("input");
+const all = document.getElementById("all");
 const notAll = [...checkboxes].filter(
-  (checkbox) => checkbox.getAttribute("id") !== "all"
+  (item) => item.getAttribute("id") !== "all"
 );
+
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", ({ target }) => {
+    if (target.getAttribute("id") === "all") {
+      checkboxes.forEach((checkbox) => (checkbox.checked = target.checked));
+    } else if (
+      notAll.filter((checkbox) => checkbox.checked).length !== notAll.length
+    ) {
+      all.indeterminate = true;
+    }
+  });
+});
