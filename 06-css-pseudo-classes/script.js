@@ -1,6 +1,6 @@
 "use strict";
 
-const checkboxes = document.querySelectorAll("input");
+const checkboxes = document.querySelectorAll("input[type='checkbox']");
 const all = document.getElementById("all");
 const notAll = [...checkboxes].filter(
   (item) => item.getAttribute("id") !== "all"
