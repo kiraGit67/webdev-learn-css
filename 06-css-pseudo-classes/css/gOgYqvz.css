@@ -189,7 +189,11 @@ select:focus {
 hr {
   border: 0;
   border-top: 1px solid var(--color-stroke);
-  margin: 4rem auto !important; /* Gotta be sure this overrides flow rules etc */
+  margin: 1.5rem auto !important; /* Gotta be sure this overrides flow rules etc */
+}
+
+.wrapper > hr {
+  margin: 0.75rem auto !important;
 }
 
 label::after {
