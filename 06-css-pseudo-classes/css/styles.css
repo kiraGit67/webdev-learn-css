@@ -66,6 +66,10 @@ input[type="number"]:out-of-range {
   border-color: darkred;
 }
 
+input[type="number"]:out-of-range ~ .info {
+  color: darkred;
+}
+
 input[type="checkbox"] {
   min-width: unset;
 }
