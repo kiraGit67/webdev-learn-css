@@ -2,6 +2,7 @@ body {
   position: relative;
 }
 
+/* input:valid, input:invalid */
 input {
   min-width: 320px;
   padding: 0.5rem 1rem;
@@ -43,6 +44,7 @@ input:valid ~ .info {
   margin-block-start: 0.5em;
 }
 
+/* input[type='number']:in-range, input[type='number']:out-of-range */
 input[type="number"]:valid,
 input[type="number"]:invalid,
 input[type="number"]:valid:focus,
@@ -70,6 +72,7 @@ input[type="number"]:out-of-range ~ .info {
   color: darkred;
 }
 
+/* input[type='checkbox']:indeterminate */
 input[type="checkbox"] {
   min-width: unset;
 }
@@ -95,6 +98,7 @@ a.button {
     box-shadow 1s ease-in-out;
 }
 
+/* button:hover, button:active */
 button.button:hover,
 a.button:hover {
   background-color: darkblue;
@@ -107,6 +111,7 @@ a.button:active {
   box-shadow: 0 0 5px darkblue;
 }
 
+/* :target */
 #legend {
   position: absolute;
   left: 2rem;
