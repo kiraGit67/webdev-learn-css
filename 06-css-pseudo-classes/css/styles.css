@@ -43,6 +43,10 @@ input:valid ~ .info {
   margin-block-start: 0.5em;
 }
 
+input[type="checkbox"] {
+  min-width: unset;
+}
+
 button.button,
 a.button {
   display: block;
