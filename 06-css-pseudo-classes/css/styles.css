@@ -111,6 +111,13 @@ a.button:active {
   box-shadow: 0 0 5px darkblue;
 }
 
+/* button:disabled */
+button.button:disabled {
+  background-color: grey;
+  border: 1px solid darkslategrey;
+  cursor: not-allowed;
+}
+
 /* :target */
 #legend {
   position: absolute;
