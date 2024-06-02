@@ -43,6 +43,29 @@ input:valid ~ .info {
   margin-block-start: 0.5em;
 }
 
+input[type="number"]:valid,
+input[type="number"]:invalid,
+input[type="number"]:valid:focus,
+input[type="number"]:invalid:focus,
+input[type="number"]:valid ~ .info,
+input[type="number"]:invalid ~ .info {
+  border-color: unset;
+  outline: unset;
+  color: unset;
+}
+
+input[type="number"]:in-range {
+  color: green;
+  background-color: rgba(0, 106, 0, 0.15);
+  border-color: green;
+}
+
+input[type="number"]:out-of-range {
+  color: white;
+  background-color: red;
+  border-color: darkred;
+}
+
 input[type="checkbox"] {
   min-width: unset;
 }
