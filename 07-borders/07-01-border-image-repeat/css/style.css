@@ -7,7 +7,8 @@
   border-image-slice: 61 58 51 48;
   border-image-width: 20px 20px 20px 20px;
   border-image-outset: 0px 0px 0px 0px;
-  border-image-repeat: stretch stretch;
+  border-image-repeat: var(--border-image-repeat-value)
+    var(--border-image-repeat-value);
 }
 
 .border-image-element {
@@ -15,7 +16,7 @@
   border-image: url(../img/border-image-source.webp);
   border-image-slice: 22 22 22 22;
   border-image-width: 20px 20px 20px 20px;
-  border-image-repeat: stretch;
+  border-image-repeat: var(--border-image-repeat-value);
 }
 
 /* Presentational Styles */
