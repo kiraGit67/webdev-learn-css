@@ -1,3 +1,7 @@
+:root {
+  --border-image-repeat-value: stretch;
+}
+
 .border-element {
   border-image-source: url(../img/border-image-frame.jpg);
   border-image-slice: 61 58 51 48;
