@@ -27,7 +27,24 @@
                 </div>
                 <!-- form.inputs for styling the box shadow -->
                 <form class="inputs">
-
+                    <div>
+                        <label for="offsetX">Offset X (px)</label>
+                        <input type="number" name="offsetX" id="offsetX" min="0" max="100" value="5">
+                    </div>
+                    <div>
+                        <label for="offsetY">Offset Y (px)</label>
+                        <input type="number" name="offsetY" id="offsetY" min="0" max="100" value="5">
+                    </div>
+                    <div>
+                        <label for="blur">Blur (px)</label>
+                        <input type="number" name="blur" id="blur" min="0" max="100" value="20">
+                    </div>
+                    <div>
+                        <label for="spread">Spread (px)</label>
+                        <input type="number" name="spread" id="spread" min="0" max="100" value="5">
+                    </div>
+                    <div><label for="color">Color</label><input type="color" name="color" id="color"></div>
+                    <div><label for="inset">Inset</label><input type="checkbox" name="inset" id="inset"></div>
                 </form>
             </article>
         </div>
