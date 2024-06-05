@@ -1,0 +1,25 @@
+.box-shadow-element {
+  box-shadow: 5px 5px 20px 5px #000;
+}
+
+/* presentational styles */
+.box-shadow-element {
+  --flow-space: 3em;
+  width: 250px;
+  height: 250px;
+  background-color: var(--color-primary-x-light);
+}
+
+.inputs > div {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  margin-block-end: 0.5rem;
+}
+
+.inputs {
+  max-width: 40rem;
+}
+
+.result-css {
+  --flow-space: 1rem;
+}
