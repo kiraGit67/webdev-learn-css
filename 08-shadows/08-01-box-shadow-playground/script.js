@@ -12,7 +12,17 @@ const boxShadowElement = document.querySelector(".box-shadow-element");
 
 /* render function to create the result */
 const rendering = () => {
-  const result = `box-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${spread.value}px ${color.value}`;
+  const result = `box-shadow: ${inset.checked ? "inset " : ""}${
+    offsetX.value
+  }px ${offsetY.value}px ${blur.value}px ${spread.value}px ${color.value}`;
   resultElement.innerHTML = `<code>${result}</code>`;
   boxShadowElement.setAttribute("style", result);
 };
+
+/* addEventListener to offsetX, offsetY, blur, spread and color */
+[offsetX, offsetY, blur, spread, color].forEach((input) => {
+  input.addEventListener("input", rendering);
+});
+
+/* addEventListener to inset */
+inset.addEventListener("change", rendering);
