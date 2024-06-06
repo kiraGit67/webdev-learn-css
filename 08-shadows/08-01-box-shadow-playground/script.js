@@ -13,9 +13,12 @@ const boxShadowElement = document.querySelector(".box-shadow-element");
 
 /* render function to create the result */
 const rendering = () => {
-  const result = `box-shadow: ${inset.checked ? "inset " : ""}${
+  const minus = invert.checked ? "-" : "";
+  const result = `box-shadow: ${inset.checked ? "inset " : ""}${minus}${
     offsetX.value
-  }px ${offsetY.value}px ${blur.value}px ${spread.value}px ${color.value}`;
+  }px ${minus}${offsetY.value}px ${blur.value}px ${spread.value}px ${
+    color.value
+  }`;
   resultElement.innerHTML = `<code>${result}</code>`;
   boxShadowElement.setAttribute("style", result);
 };
