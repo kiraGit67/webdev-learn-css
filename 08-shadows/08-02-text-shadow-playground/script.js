@@ -18,7 +18,8 @@ const rendering = () => {
 };
 
 /* Variable for all inputs */
-const inputElements = document.querySelectorAll("input");
+//const inputElements = document.querySelectorAll("input");
+const inputElements = [offsetX, offsetY, blur, color];
 
 /* EventListener for inputElements */
 inputElements.forEach((inputElement) =>
