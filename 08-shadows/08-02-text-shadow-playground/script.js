@@ -11,7 +11,8 @@ const textShadowElement = document.querySelector(".text-shadow-element");
 
 /* adds function to change the inputs' values and text shadow stylings */
 const rendering = () => {
-  const result = `text-shadow: ${offsetX.value}px ${offsetY.value}px ${blur.value}px ${color.value}`;
+  const minus = invert.checked ? "-" : "";
+  const result = `text-shadow: ${minus}${offsetX.value}px ${minus}${offsetY.value}px ${blur.value}px ${color.value}`;
   resultElement.innerHTML = `<code>${result}</code>`;
   textShadowElement.setAttribute("style", result);
 };
