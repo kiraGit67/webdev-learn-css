@@ -3,6 +3,7 @@ const offsetX = document.querySelector("#offsetX");
 const offsetY = document.querySelector("#offsetY");
 const blur = document.querySelector("#blur");
 const color = document.querySelector("#color");
+const invert = document.querySelector("#invert");
 
 /* Variables for #result .text-shadow-element */
 const resultElement = document.querySelector("#result");
