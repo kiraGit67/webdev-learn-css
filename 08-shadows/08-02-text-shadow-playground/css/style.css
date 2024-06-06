@@ -12,3 +12,9 @@
   color: var(--color-primary-dark);
   max-width: 40rem;
 }
+
+/* focus styling for .text-shadow-element */
+.text-shadow-element:focus {
+  outline: 2px dashed var(--color-primary-dark);
+  outline-offset: 10px;
+}
