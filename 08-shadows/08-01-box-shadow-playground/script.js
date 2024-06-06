@@ -5,6 +5,7 @@ const blur = document.querySelector("#blur");
 const spread = document.querySelector("#spread");
 const color = document.querySelector("#color");
 const inset = document.querySelector("#inset");
+const invert = document.querySelector("#invert");
 
 /* Variables for #result and .box-shadow-element */
 const resultElement = document.querySelector("#result");
