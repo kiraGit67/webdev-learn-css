@@ -26,4 +26,7 @@ inputElements.forEach((inputElement) =>
   inputElement.addEventListener("input", rendering)
 );
 
+/* eventListener for invert */
+invert.addEventListener("change", rendering);
+
 rendering();
