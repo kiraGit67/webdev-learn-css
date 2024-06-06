@@ -14,3 +14,13 @@ const rendering = () => {
   resultElement.innerHTML = `<code>${result}</code>`;
   textShadowElement.setAttribute("style", result);
 };
+
+/* Variable for all inputs */
+const inputElements = document.querySelectorAll("input");
+
+/* EventListener for inputElements */
+inputElements.forEach((inputElement) =>
+  inputElement.addEventListener("input", rendering)
+);
+
+rendering();
