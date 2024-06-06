@@ -29,4 +29,7 @@ const rendering = () => {
 });
 
 /* addEventListener to inset */
-inset.addEventListener("change", rendering);
+//inset.addEventListener("change", rendering);
+[inset, invert].forEach((checkbox) => {
+  checkbox.addEventListener("change", rendering);
+});
