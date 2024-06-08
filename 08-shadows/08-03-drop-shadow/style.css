@@ -27,3 +27,20 @@ header > h1 {
 main {
   padding: 0 3.5rem;
 }
+
+figure {
+  width: 100%;
+  max-width: 25rem;
+  padding: 1rem;
+  border: 1px solid #718093;
+  border-radius: 0.5rem;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
