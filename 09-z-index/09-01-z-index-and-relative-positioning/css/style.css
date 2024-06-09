@@ -1,0 +1,30 @@
+.demo-box {
+  width: 250px;
+  height: 200px;
+  padding: 1rem;
+}
+
+.demo-box + .demo-box {
+  margin-top: -150px;
+  opacity: 0.75;
+  box-shadow: 0 -1px 10px rgba(0 0 0 / 60%);
+}
+
+.demo-box:first-of-type {
+  background: aliceblue;
+  border: 2px solid lightblue;
+  z-index: 3;
+}
+
+.demo-box:nth-of-type(2) {
+  background: pink;
+  border: 2px solid hotpink;
+  z-index: 1;
+  margin-left: 1rem;
+}
+
+.demo-box:last-of-type {
+  background: wheat;
+  border: 2px solid gold;
+  z-index: 2;
+}
