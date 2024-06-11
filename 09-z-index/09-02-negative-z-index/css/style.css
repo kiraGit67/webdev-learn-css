@@ -1,0 +1,29 @@
+.my-element {
+  background-color: rgb(232 240 254 / 0.5);
+  border: 1px solid lightblue;
+}
+
+.my-element > .child {
+  position: relative;
+  z-index: -1;
+
+  background-color: pink;
+  border: 1px solid hotpink;
+  padding: 1rem;
+  width: 275px;
+}
+
+/* decorative styles */
+.my-element {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.child {
+  font-weight: bold;
+}
