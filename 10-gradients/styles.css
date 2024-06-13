@@ -12,7 +12,7 @@ body {
 }
 
 .intro {
-  width: 100%;
+  _width: 100%;
   background: linear-gradient(
     to top,
     var(--primary-color),
@@ -38,4 +38,8 @@ body {
   font-weight: 600;
   font-size: 1.65rem;
   color: currentColor;
+}
+
+.intro > * + * {
+  margin-top: 1.5rem;
 }
