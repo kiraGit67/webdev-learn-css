@@ -100,3 +100,15 @@ body {
       transparent
     );
 }
+
+@media screen and (max-width: 768px) {
+  .section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .section {
+    grid-template-columns: 1fr;
+  }
+}
