@@ -2,6 +2,7 @@
   --primary-color: #3c006b;
   --secondary-color: #9948d9;
   --additional-color: #daa9ff;
+  --section-color: #ddd;
 }
 
 body {
@@ -43,4 +44,9 @@ body {
 
 .intro > * + * {
   margin-top: 1.5rem;
+}
+
+.section {
+  background: linear-gradient(45deg, var(--section-color), transparent);
+  padding: 3.5rem 2rem;
 }
