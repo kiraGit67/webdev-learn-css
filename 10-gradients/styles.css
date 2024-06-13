@@ -50,8 +50,8 @@ body {
   background: linear-gradient(45deg, var(--section-color), transparent);
   padding: 3.5rem 2rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
 }
 
 .gradient {
@@ -75,7 +75,7 @@ body {
   border: 10px solid var(--primary-color);
 }
 
-.gradient:last-of-type {
+.gradient:nth-of-type(3) {
   background: repeating-linear-gradient(
     45deg,
     var(--primary-color),
