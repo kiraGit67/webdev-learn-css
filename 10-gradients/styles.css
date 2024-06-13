@@ -84,3 +84,19 @@ body {
     var(--additional-color) 60px
   );
 }
+
+.gradient:last-of-type {
+  background: linear-gradient(
+      -45deg,
+      var(--primary-color) -30%,
+      transparent 80%
+    ),
+    linear-gradient(
+      45deg,
+      darkred 20%,
+      crimson,
+      darkorange 60%,
+      gold,
+      transparent
+    );
+}
