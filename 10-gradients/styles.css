@@ -10,3 +10,14 @@ body {
   min-height: 100vh;
   letter-spacing: 0.03ch;
 }
+
+.intro {
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  color: white;
+  padding: 7rem 2rem 5rem 2rem;
+}
