@@ -49,4 +49,38 @@ body {
 .section {
   background: linear-gradient(45deg, var(--section-color), transparent);
   padding: 3.5rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.gradient {
+  aspect-ratio: 1;
+  border: 1px solid black;
+}
+
+.gradient:first-of-type {
+  background: conic-gradient(var(--primary-color), var(--additional-color));
+}
+
+.gradient:nth-of-type(2) {
+  background: conic-gradient(
+    gold 20deg,
+    lightcoral 20deg 150deg,
+    mediumturquoise 150deg 175deg,
+    var(--additional-color) 175deg 225deg,
+    var(--secondary-color) 225deg
+  );
+  border-radius: 50%;
+  border: 10px solid var(--primary-color);
+}
+
+.gradient:last-of-type {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--primary-color),
+    var(--primary-color) 30px,
+    var(--additional-color) 30px,
+    var(--additional-color) 60px
+  );
 }
