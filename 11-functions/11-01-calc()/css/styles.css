@@ -10,3 +10,21 @@
   overflow: hidden;
   border: 1px solid lightgrey;
 }
+
+/* Presentational styles */
+.calc-element {
+  font-weight: bold;
+  padding: 1rem;
+  max-width: none;
+  margin: 0 auto;
+}
+
+code {
+  font-weight: normal;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 150px;
+}
