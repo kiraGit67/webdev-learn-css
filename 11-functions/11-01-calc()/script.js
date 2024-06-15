@@ -1,6 +1,7 @@
 /* constants for input#margin, .calc-element */
 const marginInput = document.querySelector("#margin");
 const calcElement = document.querySelector(".calc-element");
+const unitSelect = document.querySelector("#unit");
 
 /* Function to change the inline margin of calcElement */
 marginInput.addEventListener("input", () => {
