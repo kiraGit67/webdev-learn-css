@@ -1,8 +1,11 @@
 .circle {
-  clip-path: circle(50%);
+  width: 400px;
+  aspect-ratio: 1;
+  clip-path: circle();
 }
 
 .polygon {
+  width: 450px;
   clip-path: polygon(
     0% 0%,
     100% 0%,
@@ -12,4 +15,9 @@
     50% 75%,
     0% 75%
   );
+}
+
+.circle > img,
+.polygon > img {
+  width: 100%;
 }
