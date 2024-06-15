@@ -1,0 +1,12 @@
+.calc-element {
+  width: calc(100% - 2rem);
+  background-color: papayawhip;
+  border: 1px solid gold;
+}
+
+.container {
+  width: 100%;
+  resize: both;
+  overflow: hidden;
+  border: 1px solid lightgrey;
+}
