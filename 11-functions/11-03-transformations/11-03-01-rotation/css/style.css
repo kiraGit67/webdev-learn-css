@@ -2,3 +2,19 @@ label {
   display: block;
   width: max-content;
 }
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.boxes > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: var(--color-primary-x-light);
+  border: 1px solid var(--color-primary);
+}
