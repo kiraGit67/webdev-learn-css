@@ -9,7 +9,7 @@ rangeInput.addEventListener("input", () => {
       "style",
       `transform: rotate${box.getAttribute("data-transform")}(${
         box.getAttribute("data-transform") === "3d" ? "1, 1, 1, " : ""
-      } ${rangeInput.value}deg)`
+      }${rangeInput.value}deg)`
     );
   });
 });
