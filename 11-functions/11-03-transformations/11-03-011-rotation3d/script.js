@@ -8,8 +8,8 @@ rangeInput.addEventListener("input", () => {
     box.setAttribute(
       "style",
       `transform: rotate${box.getAttribute("data-transform")}(${
-        rangeInput.value
-      }deg)`
+        box.getAttribute("data-transform") === "3d" ? "1, 1, 1, " : ""
+      } ${rangeInput.value}deg)`
     );
   });
 });
