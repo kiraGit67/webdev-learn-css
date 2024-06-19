@@ -8,3 +8,12 @@ label {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.75rem;
 }
+
+.boxes > * {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  display: grid;
+  place-content: center;
+  background-color: var(--color-primary-x-light);
+  border: 1px solid var(--color-primary);
+}
