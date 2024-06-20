@@ -16,4 +16,5 @@ label {
   place-content: center;
   background-color: var(--color-primary-x-light);
   border: 1px solid var(--color-primary);
+  aspect-ratio: 1;
 }
