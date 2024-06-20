@@ -2,8 +2,6 @@
 const demoBox = document.querySelector(".demo");
 const translators = [...document.querySelectorAll("input[type='range']")];
 
-console.log(translators);
-
 /* eventListener for translators to translate the demoBox */
 function update() {
   let transform = translators
