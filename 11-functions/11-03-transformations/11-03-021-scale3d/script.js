@@ -7,9 +7,13 @@ scaleInput.addEventListener("input", () => {
   boxes.forEach((box) => {
     box.setAttribute(
       "style",
-      `transform: scale${box.getAttribute("data-transform")}(${
-        scaleInput.value
-      })`
+      box.getAttribute("data-transform") === "3d"
+        ? `transform: scale${box.getAttribute("data-transform")}(${
+            scaleInput.value
+          }, ${scaleInput.value}, ${scaleInput.value})`
+        : `transform: scale${box.getAttribute("data-transform")}(${
+            scaleInput.value
+          })`
     );
   });
 });
