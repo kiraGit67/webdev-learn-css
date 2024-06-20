@@ -16,3 +16,9 @@ function update() {
 
   demoBox.setAttribute("style", `transform: ${transform}`);
 }
+
+translators.forEach((translator) => {
+  translator.addEventListener("input", () => {
+    update();
+  });
+});
