@@ -1,13 +1,13 @@
 /* constants for .demo and skewInputs */
 const demoBox = document.querySelector(".demo");
 const sliders = [...document.querySelectorAll("input[type='range']")];
-const inverse = document.querySelector("input[type='checkbox']");
+const inverseSkew = document.querySelector("input[type='checkbox']");
 
 /* update function for each slider */
 function update() {
   let skewing = sliders
     .map((slider) => {
-      if (inverse.checked) {
+      if (inverseSkew.checked) {
         return `skew${slider.getAttribute(
           "data-transform"
         )}(${-slider.value}deg)`;
