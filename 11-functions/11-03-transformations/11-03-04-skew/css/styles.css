@@ -1,0 +1,6 @@
+.demo {
+  width: 250px;
+  height: 250px;
+  background: var(--color-primary-x-light);
+  border: 2px solid var(--color-primary);
+}
