@@ -4,3 +4,8 @@
   background: var(--color-primary-x-light);
   border: 2px solid var(--color-primary);
 }
+
+label {
+  display: block;
+  width: max-content;
+}
