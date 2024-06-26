@@ -35,6 +35,16 @@ header > h1 {
   position: relative;
 }
 
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+}
+
 .pulser::after {
   content: "";
   position: absolute;
