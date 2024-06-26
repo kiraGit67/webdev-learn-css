@@ -26,3 +26,11 @@ header > h1 {
   font-weight: normal;
   color: rebeccapurple;
 }
+
+.pulser {
+  width: 50px;
+  height: 50px;
+  background: rebeccapurple;
+  border-radius: 50%;
+  position: relative;
+}
