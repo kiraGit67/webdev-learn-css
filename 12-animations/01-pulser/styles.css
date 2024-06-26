@@ -5,3 +5,24 @@ html,
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header,
+main {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+header {
+  height: 15vh;
+  border-bottom: 1px solid rebeccapurple;
+}
+
+main {
+  height: 85vh;
+}
+
+header > h1 {
+  font-weight: normal;
+  color: rebeccapurple;
+}
