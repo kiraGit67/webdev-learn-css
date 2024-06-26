@@ -9,3 +9,13 @@ label {
   position: relative;
   margin-inline: auto;
 }
+
+@keyframes expand {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.75);
+    background: darkturquoise;
+  }
+}
