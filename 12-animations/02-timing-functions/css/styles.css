@@ -1,3 +1,11 @@
 label {
   display: block;
 }
+
+.expander {
+  width: 200px;
+  height: 80px;
+  background: lightseagreen;
+  position: relative;
+  margin-inline: auto;
+}
