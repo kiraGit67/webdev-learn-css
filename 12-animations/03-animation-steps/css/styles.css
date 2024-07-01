@@ -8,3 +8,12 @@ label {
   height: 75px;
   background-color: var(--color-primary);
 }
+
+@keyframes move-forward-down {
+  from {
+    transform: translateX(0px) translateY(0px);
+  }
+  to {
+    transform: translateX(300px) translateY(30px);
+  }
+}
