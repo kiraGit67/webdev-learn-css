@@ -1,0 +1,23 @@
+label {
+  display: block;
+  width: max-content;
+}
+
+.demo {
+  width: 75px;
+  height: 75px;
+  background-color: var(--color-primary);
+
+  animation: move-forward-down;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-forward-down {
+  from {
+    transform: translateX(0px) translateY(0px);
+  }
+  to {
+    transform: translateX(300px) translateY(30px);
+  }
+}
