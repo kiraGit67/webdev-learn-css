@@ -5,7 +5,9 @@ const stepCounter = document.querySelector("#step-count");
 
 /* eventListener for stepToggler to turn on step timing function */
 stepToggler.addEventListener("change", ({ target }) => {
+  stepCounter.disabled = target.checked ? true : false;
+
   stepDemo.style.animationTimingFunction = target.checked
-    ? "steps(10, end)"
+    ? `steps(${stepCounter.value}, end)`
     : "linear";
 });
