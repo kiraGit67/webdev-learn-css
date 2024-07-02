@@ -1,0 +1,12 @@
+/* decorative styles */
+body {
+  display: grid;
+  place-items: center;
+}
+
+.grower {
+  width: 200px;
+  height: 75px;
+  background-color: lightseagreen;
+  position: relative;
+}
