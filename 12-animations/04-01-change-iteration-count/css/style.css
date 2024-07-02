@@ -20,6 +20,15 @@ body,
   margin-top: 2rem;
 }
 
+label {
+  display: block;
+  width: max-content;
+}
+
+input[type="range"] {
+  accent-color: var(--color-primary);
+}
+
 /* expand animation */
 @keyframes expand {
   0% {
