@@ -1,0 +1,39 @@
+/* decorative styles */
+body,
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.grower {
+  width: 200px;
+  height: 75px;
+  background-color: lightseagreen;
+  position: relative;
+}
+
+.flow:last-child {
+  text-align: center;
+}
+
+.flow + .flow {
+  margin-top: 2rem;
+}
+
+/* expand animation */
+@keyframes expand {
+  0% {
+    transform: scaleX(1.15);
+  }
+  50% {
+    transform: scaleX(2);
+    background: darkturquoise;
+  }
+}
+
+.animate {
+  animation-name: expand;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 5;
+}
