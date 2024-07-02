@@ -1,3 +1,8 @@
+/* root element */
+:root {
+  --iteration-count: 5;
+}
+
 /* decorative styles */
 body,
 .wrapper {
@@ -44,5 +49,5 @@ input[type="range"] {
   animation-name: expand;
   animation-duration: 1.5s;
   animation-timing-function: ease;
-  animation-iteration-count: 5;
+  animation-iteration-count: var(--iteration-count);
 }
