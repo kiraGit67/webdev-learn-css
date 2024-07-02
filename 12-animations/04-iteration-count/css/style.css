@@ -1,5 +1,6 @@
 /* decorative styles */
-body {
+body,
+.wrapper {
   display: grid;
   place-items: center;
 }
@@ -9,4 +10,12 @@ body {
   height: 75px;
   background-color: lightseagreen;
   position: relative;
+}
+
+.flow:last-child {
+  text-align: center;
+}
+
+.flow + .flow {
+  margin-top: 2rem;
 }
