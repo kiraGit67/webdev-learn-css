@@ -19,3 +19,14 @@ body,
 .flow + .flow {
   margin-top: 2rem;
 }
+
+/* expand animation */
+@keyframes expand {
+  0% {
+    transform: scaleX(1.15);
+  }
+  50% {
+    transform: scaleX(2);
+    background: darkturquoise;
+  }
+}
