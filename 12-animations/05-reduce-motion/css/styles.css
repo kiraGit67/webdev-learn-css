@@ -33,3 +33,20 @@
   background: cornflowerblue;
   transform: rotateY(180deg);
 }
+
+button {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: lighter;
+  padding: 1rem;
+  transition-duration: 0.25s;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: white;
+  color: cornflowerblue;
+}
