@@ -66,8 +66,18 @@ button:focus {
   color: cornflowerblue;
 }
 
+/* .card motion style */
 .card:hover,
 .card:focus,
 .card:focus-within {
   transform: rotateY(180deg);
+}
+
+/* reduced motion style */
+.reduced-motion .back {
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 0.5s;
+  transform: none;
 }
