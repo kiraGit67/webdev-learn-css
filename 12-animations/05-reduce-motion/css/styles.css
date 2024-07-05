@@ -81,3 +81,9 @@ button:focus {
   transition-duration: 0.5s;
   transform: none;
 }
+
+.reduced-motion .card:hover,
+.reduced-motion .card:focus,
+.reduced-motion .card:focus-within {
+  transform: none;
+}
