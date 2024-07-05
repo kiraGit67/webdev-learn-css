@@ -55,3 +55,9 @@ button:focus {
   background: white;
   color: cornflowerblue;
 }
+
+.card:hover,
+.card:focus,
+.card:focus-within {
+  transform: rotateY(180deg);
+}
