@@ -22,6 +22,16 @@ label {
   transform-style: preserve-3d;
 }
 
+.card h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: cornflowerblue;
+}
+
+.card p {
+  color: darkblue;
+}
+
 .face {
   --flow-space: 1rem;
   position: absolute;
