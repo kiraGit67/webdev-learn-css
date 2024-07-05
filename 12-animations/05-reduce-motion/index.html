@@ -20,9 +20,13 @@
                         animation.</p>
                 </figure>
 
-                <label for="animation-checkbox">
-                    Reduce Animation
-                    <input type="checkbox" role="switch" name="animation-checkbox" id="animation-checkbox">
+                <label class="toggle" for="animation-checkbox">
+                    <span class="toggle__label">Reduce Animation</span>
+                    <input type="checkbox" role="switch" class="toggle__element" name="animation-checkbox"
+                        id="animation-checkbox">
+                    <div class="toggle__decor" aria-hidden="true">
+                        <div class="toggle__thumb"></div>
+                    </div>
                 </label>
 
                 <div class="container">
