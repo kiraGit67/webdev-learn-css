@@ -1,0 +1,7 @@
+.demo {
+  border: 2px solid darkred;
+  border-radius: 0.5rem;
+  background: mistyrose;
+  max-width: 350px;
+  overflow: hidden;
+}
