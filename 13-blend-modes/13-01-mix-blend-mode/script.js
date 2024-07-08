@@ -6,3 +6,7 @@ const rangeElement = document.querySelector("input[type='range']");
 toggleElement.addEventListener("change", ({ target }) => {
   demoImg.style.mixBlendMode = target.checked ? "multiply" : "normal";
 });
+
+rangeElement.addEventListener("input", ({ target }) => {
+  demoImg.style.filter = `brightness(${target.value}%)`;
+});
