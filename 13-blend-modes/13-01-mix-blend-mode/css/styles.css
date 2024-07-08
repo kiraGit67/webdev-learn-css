@@ -15,3 +15,7 @@ label {
   display: block;
   width: max-content;
 }
+
+input[type="range"] {
+  accent-color: var(--color-primary);
+}
