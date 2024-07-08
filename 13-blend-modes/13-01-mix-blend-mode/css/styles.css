@@ -10,3 +10,8 @@
   mix-blend-mode: normal;
   filter: brightness(110%);
 }
+
+label {
+  display: block;
+  width: max-content;
+}
