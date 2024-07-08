@@ -5,3 +5,8 @@
   max-width: 350px;
   overflow: hidden;
 }
+
+.demo > img {
+  mix-blend-mode: normal;
+  filter: brightness(110%);
+}
