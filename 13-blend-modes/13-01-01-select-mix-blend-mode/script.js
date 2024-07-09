@@ -11,7 +11,9 @@ toggleElement.addEventListener("change", ({ target }) => {
 });
 
 selectBlendMode.addEventListener("input", ({ target }) => {
-  demoImg.style.mixBlendMode = target.value;
+  if (toggleElement.checked === true) {
+    demoImg.style.mixBlendMode = target.value;
+  }
 });
 
 rangeElement.addEventListener("input", ({ target }) => {
