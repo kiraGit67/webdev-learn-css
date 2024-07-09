@@ -10,6 +10,10 @@ toggleElement.addEventListener("change", ({ target }) => {
     : "normal";
 });
 
+selectBlendMode.addEventListener("input", ({ target }) => {
+  demoImg.style.mixBlendMode = target.value;
+});
+
 rangeElement.addEventListener("input", ({ target }) => {
   demoImg.style.filter = `brightness(${target.value}%)`;
 });
