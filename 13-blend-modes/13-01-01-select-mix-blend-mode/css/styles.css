@@ -19,3 +19,18 @@ label {
 input[type="range"] {
   accent-color: var(--color-primary);
 }
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-image: none;
+  list-style-type: none;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul > li {
+  margin-block: 0;
+}
