@@ -1,0 +1,21 @@
+.demo {
+  border: 2px solid darkred;
+  border-radius: 0.5rem;
+  background: mistyrose;
+  max-width: 350px;
+  overflow: hidden;
+}
+
+.demo > img {
+  mix-blend-mode: normal;
+  filter: brightness(110%);
+}
+
+label {
+  display: block;
+  width: max-content;
+}
+
+input[type="range"] {
+  accent-color: var(--color-primary);
+}
