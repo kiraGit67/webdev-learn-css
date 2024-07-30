@@ -1,5 +1,6 @@
 ul.inside {
   list-style-position: inside;
+  padding-inline-start: 0px;
 }
 
 ul > li {
