@@ -1,0 +1,19 @@
+ul.inside {
+  list-style-position: inside;
+}
+
+ul > li {
+  background-color: plum;
+}
+
+article.flow {
+  max-width: 40rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.flow > * + * {
+  margin-top: 0;
+}
